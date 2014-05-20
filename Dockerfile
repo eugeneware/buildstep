@@ -3,6 +3,8 @@ MAINTAINER progrium "progrium@gmail.com"
 
 RUN mkdir /build
 ADD ./stack/ /build
-RUN LC_ALL=C DEBIAN_FRONTEND=noninteractive /build/prepare
+run lc_all=c debian_frontend=noninteractive /build/prepare-packages
+run lc_all=c debian_frontend=noninteractive /build/prepare-buildpacks
+run lc_all=c debian_frontend=noninteractive /build/prepare-misc
 RUN rm -rf /var/lib/apt/lists/*
 RUN apt-get clean
