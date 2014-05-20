@@ -1,5 +1,4 @@
 https://github.com/heroku/heroku-buildpack-ruby.git
-https://github.com/eugeneware/heroku-buildpack-nodejs.git
 https://github.com/heroku/heroku-buildpack-java.git
 https://github.com/heroku/heroku-buildpack-play.git
 https://github.com/heroku/heroku-buildpack-python.git

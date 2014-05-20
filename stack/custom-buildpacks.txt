@@ -1,0 +1,1 @@
+https://github.com/eugeneware/heroku-buildpack-nodejs.git
